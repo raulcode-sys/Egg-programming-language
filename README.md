@@ -14,15 +14,19 @@ it only runs on Linux machines, so to start using it you do this:
    
              chmod +x gutterball
    
-7. Allow it to run systemwide:
+6. Allow it to run systemwide:
    
              sudo cp gutterball /usr/local/bin/gutterball
+
+7. Set up the libraries:
+
+              gutterball --install-libs
    
 9. Make your first program:
 
              nano hello.egg
    
-11. Write in the code:
+10. Write in the code:
 
                 fn main() -> void {
                    execute.WriteIn("Hello from Vex!")
@@ -30,10 +34,10 @@ it only runs on Linux machines, so to start using it you do this:
                    execute.Exit(0)
                 }
     
-13. Compile:
+11. Compile:
 
               gutterball hello.egg -o hello
-15. Run:
+12. Run:
 
               ./hello
 
