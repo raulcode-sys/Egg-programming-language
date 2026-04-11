@@ -34,7 +34,7 @@ it only runs on Linux machines, so to start using it you do this:
 
               ./hello
 
-   NEW FEATURES: Sort Library (Bubble Sort)
+   NEW FEATURES: Sort Library (Bubble Sort), Low-Level capabilities, Multi-line comments
 
 Now you can start programming in egg/VEX!
     
